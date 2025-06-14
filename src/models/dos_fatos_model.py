@@ -21,7 +21,7 @@ class DosFatosModel:
         Método para limpeza de dados.
         """
         data_cleaning = LLMFactory.create(
-            "gemini-1.5-flash", 
+            "gemini-2.5-flash-preview-05-20", 
             model_provider="google_genai", 
             temperature=0.7)
         
